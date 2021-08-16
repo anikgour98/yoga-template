@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-nav{
+    background: #343148;
+}
+.nav-icon{
+    color: white;
+    font-size: 30px;
+}
+.nav-brand{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.nav-brand:hover{
+    color: white;
+}
+.my-ul{
+    margin-left: auto;
+    text-align: center;
+   
+}
+.my-li{
+    padding-left: 10px;
+    
+}
+.my-link{
+    color: white;
+    text-transform: capitalize;
+    border-bottom: 2px solid transparent;
+    /* display: inline-block; */
+   border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+    
+}
+.my-link:hover{
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+/* nav end  */
+/* -----------------------------------------------------------------------  */
+.main-body{
+    background-image: linear-gradient(to right, #F7CAC9, #f8bab9);
+    width: 100%;
+    padding: 8em 0;
+}
+.main-txt{
+    padding-top: 4em;
+    
+}
+.main-txt > h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #343148;
+    padding-bottom: 20px;
+}
+.main-txt > P{
+    letter-spacing: 1px;
+    color: #343148;
+    padding-bottom: 20px;
+}
+.main-txt > a{
+    display: inline-block;
+    text-decoration: none;
+    color: #F7CAC9;
+    background: #343148;
+    padding: 10px 20px;
+    margin-right: 15px;
+    transition: 0.3s ease-in-out;
+    letter-spacing: 1px;
+}
+.main-txt > a:hover{
+    color: #343148;
+    background: white;
+}
+
+/* ----------------------------------------------------------------  */
+
+/* about start  */
+.about{
+    padding: 8em 0;
+    
+}
+.about-txt{
+    padding-top: 2em;
+}
+.txt-hading .about-txt-blank{
+    width: 50px;
+    height: 2px;
+    background: #f8bab9;
+    display: inline-block;
+   
+   
+}
+.txt-hading .about-txt-name{
+    display: inline-block;
+    padding: 0 10px;
+   
+}
+
+.txt-body > h1{
+    color: #343148;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.txt-body > p{
+    color: #343148;
+    padding-bottom: 20px;
+}
+.txt-body > a{
+    text-decoration: none;
+    color: #f8bab9;
+    background: #343148;
+    padding: 10px 20px;
+    transition: 0.3s ease-in-out;
+    letter-spacing: 1px;
+}
+.txt-body > a:hover{
+    color: #343148;
+    background: #f8bab9;
+}
+/* about end */
+/* -------------------------------------------------------  */
+/* service start  */
+.service{
+    padding: 8em 0;
+    /* background: rgb(122, 32, 32); */
+    /* margin-bottom: 13em; */
+}
+.service-heading-txt .service-heading-blank{
+    width: 50px;
+    height: 2px;
+    background: #f8bab9;
+    display: inline-block;
+}
+.service-heading-name{
+    display: inline-block;
+}
+.service-heading-name > h5{ 
+   color: #343148;
+}
+.service-content > h1{
+    color: #343148;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.service-box{
+    border: 1px solid rgb(192, 192, 192);
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+.service-active{
+    background: #343148;
+}
+.service-active .box-content h4{
+    color: #f8bab9;
+}
+.service-active .box-content p{
+    color: #ffffff;
+}
+.service-box .box-content img{
+    /* background: #f8bab9; */
+    border: 5px solid  #f8bab9;
+    padding: 5px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.service-box:hover{
+    background: #343148;
+}
+.service-box:hover h4{
+    color: #f8bab9;
+}
+.service-box:hover p{
+    color: #ffffff;
+}
+.box-content > h4{
+    color: #343148;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.box-content > p{
+    color: rgb(139, 136, 136);
+}
+
+/* service end  */
+
+
+/* --------------------------------------  */
+
+
+
+/* pric section start  */
+.price{
+    background-image: url(/image/price/woman-3053489_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    text-align: center;
+   
+    
+}
+.price-background{
+    position: absolute;
+    background: #f8bab9af;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.price-overlay > h6{
+    font-size: 20px;
+    /* padding-bottom: 5px; */
+    color: #343148;
+}
+.price-overlay > h1{
+    font-size: 50px;
+    color: #343148;
+    font-weight: bold;
+}
+.price-overlay > h1 span{
+    color: red;
+}
+.price-overlay > p{
+    color: #343148;
+    padding-bottom: 10px;
+}
+.price-overlay > a{
+    text-decoration: none;
+    color: #f8bab9;
+    padding: 8px 20px;
+    background: #343148;
+    transition: 0.3s ease-in-out;
+}
+.price-overlay > a:hover{
+    color: #343148;
+    background: white;
+}
+/* pric section end */
+
+/* -----------------------------------  */
+
+
+/* packegs section start */
+
+.price-package{
+    padding-top: 8em;
+    margin-bottom: 40px;
+}
+.price-package-heading-txt .price-package-heading-blank{
+    width: 50px;
+    height: 2px;
+    background: #f8bab9;
+    display: inline-block;
+}
+.price-package-heading-name{
+    display: inline-block;
+}
+.price-package-heading-name > h5{ 
+   color: #343148;
+}
+.price-package-content > h1{
+    color: #343148;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.heading{
+    background: #F7CAC9;
+    padding: 20px 0;
+}
+.heading > h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #343148;
+}
+.my-list-group > p{
+    color: gray;
+}
+.my-list-group > a{
+    text-decoration: none;
+    color: #343148 ;
+    background: #F7CAC9;
+    padding: 8px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+.my-list-group > a:hover{
+    color:#F7CAC9;
+    background: #343148;
+}
+
+.heading-middle{
+    background: #343148;
+    padding: 20px 0;
+   
+}
+.heading-middle > h1{
+    color: #F7CAC9;
+    font-size: 30px;
+
+}
+.my-list-group-middle > p{
+    color: gray;
+}
+.my-list-group-middle > a{
+    text-decoration: none;
+    color: #F7CAC9 ;
+    background: #343148;
+    padding: 8px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+.my-list-group-middle > a:hover{
+   background:#F7CAC9;
+    color: #343148;
+}
+/* packegs section end */
+/* -------------------------------------  */
+
+/* clients section start  */
+.clients{
+    padding: 2em 0;
+    
+   
+}
+.clients-heading-txt .clients-heading-blank{
+    width: 50px;
+    height: 2px;
+    background: #f8bab9;
+    display: inline-block;
+}
+.clients-heading-name{
+    display: inline-block;
+}
+.clients-heading-name > h5{ 
+   color: #343148;
+}
+.clients-content > h1{
+    color: #343148;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.my-carousel-item{
+    padding: 20px 50px;
+}
+.my-carousel-item > h3{
+    padding-bottom: 10px;
+}
+.my-carousel-item > p{
+    padding: 20px 0;
+}
+.my-carousel-indicators .mybtn{
+    width: 20px;
+    height: 1px;
+    line-height: 10px;
+    background: black;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+/* clients section end  */
+/* --------------------------------------------  */
+/* class Shedule seection start  */
+
+.classed-Shedule{
+    padding: 8em 0;
+    /* background: rgb(122, 32, 32); */
+}
+.classed-Shedule-heading-txt .classed-Shedule-heading-blank{
+    width: 50px;
+    height: 2px;
+    background: #f8bab9;
+    display: inline-block;
+}
+.classed-Shedule-heading-name{
+    display: inline-block;
+}
+.classed-Shedule-heading-name > h5{ 
+   color: #343148;
+}
+.classed-Shedule-content > h1{
+    color: #343148;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.shedule-navbar{
+    /* background: blue; */
+}
+
+.shedule-navbar > ul{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.shedule-navbar > ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+.shedule-navbar > ul li a{
+    text-decoration: none;
+    color: #343148;
+    display: block;
+    border: 1px solid #343148;
+    padding: 8px 15px;
+    transition: all 0.3s ease-in-out;
+}
+.shedule-navbar > ul li a:hover{
+    color: #f8bab9;
+    background: #343148;
+}
+.shedule-navbar > ul li .active{
+    background: #343148;
+    color: #f8bab9;
+}
+
+
+
+
+
+/* class Shedule seection end  */
+.classes-gallary{
+    padding-top: 40px;
+}
+.gallary-image{
+    border: 1px solid rgb(179, 179, 179);
+    position: relative;
+}
+.gallary-image > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+}
+figcaption{
+    padding-top: 5em;
+    padding-left: 20px;
+}
+figcaption > p{
+    display: inline-block;
+    padding-right: 20px;
+}
+.image-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+   /* padding: 0 10px; */
+}
+
+.overlay-items{
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px 0 gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 355px;
+   
+    border-radius: 20px;
+    margin-top: 14em;
+    
+    
+}
+
+.overlay-items > img{
+    border-radius: 50%;
+    
+}
+.overlay-items > p{
+padding-left: 20px;
+}
+.overlay-txt p{ 
+    padding-left: 10em;
+    /* background: hotpink;
+    display: inline-block; */
+}
+.overlay-txt p i{ 
+    margin-top: 10px;
+    padding: 10px;
+    background: hotpink;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

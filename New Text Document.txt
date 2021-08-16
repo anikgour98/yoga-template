@@ -1,0 +1,40 @@
+<div class="col-lg-12">
+              <div class="service-heading">
+                    <div class="service-heading-txt">
+                        <div class="service-heading-blank"></div>
+                        <div class="service-heading-name">
+                            <h5>What we do</h5>
+                        </div>
+                        <div class="service-heading-blank"></div>
+                    </div>
+              </div>
+
+              <div class="service-content">
+                <h1>Yoga For Health</h1>
+              </div>
+         </div>
+
+
+-----------------------------------
+
+.service{
+    padding: 8em 0;
+    /* background: rgb(122, 32, 32); */
+}
+.service-heading-txt .service-heading-blank{
+    width: 50px;
+    height: 2px;
+    background: #f8bab9;
+    display: inline-block;
+}
+.service-heading-name{
+    display: inline-block;
+}
+.service-heading-name > h5{ 
+   color: #343148;
+}
+.service-content > h1{
+    color: #343148;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
